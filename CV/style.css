@@ -1,0 +1,22 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+   position: relative;
+   width: 100%;
+   max-width: 1000px;
+   min-height: 100px;
+   background: #fff;
+}
