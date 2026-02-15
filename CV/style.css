@@ -17,6 +17,24 @@ body {
    position: relative;
    width: 100%;
    max-width: 1000px;
-   min-height: 100px;
+   min-height: 1000px;
+   margin: 50px;
    background: #fff;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+   border-radius: 15px;
+   overflow: hidden;
+}
+
+.box .leftsidebar {
+     position: relative;
+     background-color: plum;
+     padding: 40px;
+}
+
+.box .rightsidebar {
+     position: relative;
+     background-color: whitesmoke;
+     padding: 40px;
 }
