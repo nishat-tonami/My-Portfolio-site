@@ -94,9 +94,9 @@ body {
 }
 
 .divider{
-    height: 1px;
-    background-color: rgba(255,255,255,0.4);
-    margin: 25px 0;
+    height: 2px;
+    background-color: #cfd8dc;
+    margin: 20px 0;
 }
 
 .skill-title{
@@ -136,4 +136,21 @@ body {
     position: relative;
     background-color: #f4f4f4;
     padding: 40px;
+}
+
+.section{
+    margin-bottom: 30px;
+}
+
+.about{
+    color: #0f98d1;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about-txt{
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
 }
