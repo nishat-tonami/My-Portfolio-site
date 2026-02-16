@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightskyblue;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,12 +29,44 @@ body {
 
 .box .leftsidebar {
      position: relative;
-     background-color: plum;
+     background-color: #10a8e6;
      padding: 40px;
+}
+
+.profile{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.namebox{
+    background-color: #0f98d1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.namebox h1{
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.namebox p{
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .box .rightsidebar {
      position: relative;
-     background-color: whitesmoke;
+     background-color: #f4f4f4;
      padding: 40px;
 }
