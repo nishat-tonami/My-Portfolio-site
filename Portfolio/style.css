@@ -21,3 +21,26 @@
   padding: 40px;
   box-shadow: 0 25px 60px rgba(0,0,0,0.15);
 }
+
+.navbar{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.navlinks{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.navlinks a{
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.navlinks a:hover{
+  color: #0f98d1;
+}
