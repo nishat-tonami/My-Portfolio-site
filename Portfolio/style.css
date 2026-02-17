@@ -11,7 +11,7 @@
 }
 
 body{
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .bg{
@@ -52,6 +52,14 @@ body{
 
 .navlinks a:hover{
   color: #0f98d1;
+}
+
+#theme-btn{
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
 .intro{
@@ -124,6 +132,10 @@ body{
   line-height: 1.6;
 }
 
+.edu-list strong {
+    color: #222;
+    font-size: 20px;
+}
 .skills{
   max-width: 600px;
 }
@@ -224,3 +236,75 @@ body{
   font-size: 16px;
   color: var(--muted);
 }
+
+.dark-mode {
+  background-color: #e4f0fb; 
+  color: white;
+}
+
+.dark-mode .bg {
+    background: #f0a500;
+}
+
+.dark-mode .main-box {
+  background-color: #242424;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+}
+
+.dark-mode .navbar {
+  background-color: #333;
+  border-radius: 10%;
+}
+
+.dark-mode .navlinks a {
+  color: white;
+}
+
+.dark-mode .navlinks a:hover {
+  color: #f0a500;
+}
+
+.dark-mode .section-title {
+  color: #f0a500;
+}
+
+.dark-mode .progress-fill {
+  background: #f0a500;
+}
+
+.dark-mode .footer {
+  color: #bbb;
+}
+
+.dark-mode #theme-btn {
+  color: white;
+}
+
+.dark-mode .pill {
+  background: #444;
+  color: #fff;
+}
+
+.dark-mode .card h3 {
+    color: #222;
+}
+ 
+.dark-mode .edu-list li strong,
+.dark-mode .contact-info p strong {
+  color: white;
+}
+
+.dark-mode .tech {
+  color: #f0a500;
+}
+
+.dark-mode .edu-list li,
+.dark-mode .intro-sub,
+.dark-mode .contact-info {
+    color: #c1cad0;
+}
+
+.dark-mode .progress-fill {
+  background: #0f98d1; 
+}
+
