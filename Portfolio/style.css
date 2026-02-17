@@ -44,3 +44,53 @@
 .navlinks a:hover{
   color: #0f98d1;
 }
+
+.intro{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.intro-left{
+  padding-right: 30px;
+}
+
+.pill{
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eaf7ff;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.intro-title{
+  font-size: 42px;
+  margin-top: 12px;
+}
+
+.accent{
+  color: var(--accent);
+}
+
+.intro-sub{
+  margin-top: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.intro-right{
+  display: flex;
+  justify-content: center;
+}
+
+.img{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 8px solid #eaf7ff;
+}
