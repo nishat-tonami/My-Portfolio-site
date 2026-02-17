@@ -48,19 +48,19 @@ body {
     display: block;
 }
 
-.namebox{
+.name-box{
     background-color: #0f98d1;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 25px;
 }
 
-.namebox h1{
+.name-box h1{
     font-size: 22px;
     letter-spacing: 1px;
 }
 
-.namebox p{
+.name-box p{
     font-size: 14px;
     margin-top: 5px;
 }
@@ -151,6 +151,24 @@ body {
 
 .about-txt{
     font-size: 15px;
-    color: #444;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.edu{
+    color: #0f98d1;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.edu-list{
+    padding-left: 20px;
+}
+
+.edu-list li{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #000000;
     line-height: 1.5;
 }
