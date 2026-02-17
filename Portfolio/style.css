@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  font-size: 18px;
 }
 
 .bg{
@@ -38,7 +42,7 @@
   text-decoration: none;
   color: #555;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .navlinks a:hover{
@@ -63,7 +67,7 @@
   border-radius: 999px;
   background: #eaf7ff;
   color: var(--accent);
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 800;
 }
 
@@ -93,4 +97,24 @@
   border-radius: 50%;
   object-fit: cover;
   border: 8px solid #eaf7ff;
+}
+
+.section{
+  margin-top: 40px;
+}
+
+.section-title{
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: var(--accent);
+}
+
+.edu-list{
+  padding-left: 20px;
+}
+
+.edu-list li{
+  margin-bottom: 15px;
+  color: var(--muted);
+  line-height: 1.6;
 }
