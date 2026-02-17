@@ -1,6 +1,7 @@
 :root{
   --accent: #10a8e6;
   --muted: #555;
+  --line:#e7e8ef;
 }
 
 *{
@@ -238,8 +239,7 @@ body{
 }
 
 .dark-mode {
-  background-color: #e4f0fb; 
-  color: white;
+    color: white;
 }
 
 .dark-mode .bg {
@@ -307,4 +307,3 @@ body{
 .dark-mode .progress-fill {
   background: #0f98d1; 
 }
-
