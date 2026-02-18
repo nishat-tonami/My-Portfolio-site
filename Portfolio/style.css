@@ -249,10 +249,6 @@ body{
   opacity: 0.7;
 }
 
-.cards .card:last-child{
-  margin-bottom: 0;
-}
-
 .contact-info{
   margin-top: 10px;
   color: var(--muted);
