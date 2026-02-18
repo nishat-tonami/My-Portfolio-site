@@ -56,3 +56,21 @@ body {
 .contact a:hover {
   text-decoration: underline;
 }
+
+.section {
+  margin-bottom: 35px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0f98d1;
+  display: inline-block;
+}
+
+.section-txt {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
