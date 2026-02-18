@@ -261,6 +261,17 @@ body{
   line-height: 1.8;
 }
 
+.contact-info a {
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a:hover {
+  color: #080eb0;
+  text-decoration: underline;
+}
+
 .contact-info strong{
   color: #222;
 }
@@ -335,7 +346,9 @@ body{
 .dark-mode .edu-list li,
 .dark-mode .intro-sub,
 .dark-mode .contact-info,
-.dark-mode .skills-extra {
+.dark-mode .skills-extra ,
+.dark-mode .contact-info a
+{
     color: #c1cad0;
 }
 
