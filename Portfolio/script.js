@@ -3,6 +3,8 @@ const body=document.body;
 
 const navLinks=document.querySelectorAll('.navlinks a');
 
+const scrolltpBtn=document.getElementById("scroll-top-btn");
+
 themeBtn.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
 
@@ -24,5 +26,20 @@ navLinks.forEach(link => {
       top:targetSection.offsetTop-45,
       behavior:'smooth'
     });
+  });
+});
+
+window.addEventListener("scroll",() => {
+  if(window.scrollY>200) {
+    scrolltpBtn.style.display="block";
+  } else {
+    scrolltpBtn.style.display="none";
+  }
+});
+
+scrolltpBtn.addEventListener("click",() => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
   });
 });
