@@ -7,6 +7,7 @@
 
 body {
   background-color: lightblue;
+  font-size: 18px;
 }
 
 .cv-page {
@@ -70,7 +71,6 @@ body {
 }
 
 .section-txt {
-  font-size: 18px;
   line-height: 1.6;
   color: #444;
 }
@@ -81,7 +81,6 @@ body {
 }
 
 .skill-list li {
-  font-size: 18px;
   margin-bottom: 8px;
   line-height: 1.6;
   color: #444;
@@ -91,3 +90,62 @@ body {
   color: #000;
 }
 
+.edu-item {
+  margin-bottom: 18px;
+}
+
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edu-year {
+  font-size: 16.5px;
+  color: #666;
+}
+
+.edu-degree {
+  font-size: 17.25px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 15px 0;
+}
+
+.project-itm {
+  margin-bottom: 18px;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #0f98d1;
+  font-weight: 600;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.project-tech {
+  font-size: 16px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.project-desc {
+  color: #444;
+  margin-top: 6px;
+  line-height: 1.5;
+}
