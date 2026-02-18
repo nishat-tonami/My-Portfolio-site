@@ -105,6 +105,23 @@ body{
   justify-content: center;
 }
 
+.cv-btn{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cv-btn:hover{
+  background: #0f98d1;
+  transform: translateY(-2px);
+}
+
 .img{
   width: 220px;
   height: 220px;
@@ -171,6 +188,13 @@ body{
   font-weight: 600;
 }
 
+.skills-extra{
+  margin-top: 20px;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 700px;
+}
+
 .progress-fill{
   display: flex;
   align-items: center;
@@ -215,6 +239,16 @@ body{
   font-size: 15px;
   font-weight: 600;
   color: var(--accent);
+}
+
+.repo-link{
+  text-decoration: none;
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.repo-link:hover{
+  opacity: 0.7;
 }
 
 .cards .card:last-child{
@@ -300,12 +334,13 @@ body{
 
 .dark-mode .edu-list li,
 .dark-mode .intro-sub,
-.dark-mode .contact-info {
+.dark-mode .contact-info,
+.dark-mode .skills-extra {
     color: #c1cad0;
 }
 
 .dark-mode .progress-fill {
-  background: #0f98d1; 
+  background: #f0a500; 
 }
 
 #scroll-top-btn{
@@ -328,4 +363,8 @@ body{
 #scroll-top-btn:hover{
   background-color: #0f98d1;
   transform: translateY(-3px);
+}
+
+.dark-mode .cv-btn,.dark-mode #scroll-top-btn{
+  background-color: #f0a500;
 }
