@@ -20,10 +20,15 @@ navLinks.forEach(link => {
     e.preventDefault();
     
     const targetId=this.getAttribute('href').substring(1);
+
     const targetSection=document.getElementById(targetId);
 
+    if(!targetSection) return;
+
+    const offset=60;
+
     window.scrollTo({
-      top:targetSection.offsetTop-45,
+      top:targetSection.offsetTop-offset,
       behavior:'smooth'
     });
   });

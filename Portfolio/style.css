@@ -181,6 +181,12 @@ body{
   height: 100%;
   background: var(--accent);
   border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 14px;
+  padding-right: 5px;
+  color: white;
 }
 
 .skill span{
@@ -195,14 +201,6 @@ body{
   max-width: 700px;
 }
 
-.progress-fill{
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 14px;
-  padding-right: 5px;
-  color: white;
-}
 
 .cards{
   display: grid;
@@ -298,7 +296,8 @@ body{
 
 .dark-mode .navbar {
   background-color: #333;
-  border-radius: 10%;
+  border-radius: 12px;
+  padding: 10px 0; 
 }
 
 .dark-mode .navlinks a {
@@ -311,10 +310,6 @@ body{
 
 .dark-mode .section-title {
   color: #f0a500;
-}
-
-.dark-mode .progress-fill {
-  background: #f0a500;
 }
 
 .dark-mode .footer {
@@ -380,4 +375,8 @@ body{
 
 .dark-mode .cv-btn,.dark-mode #scroll-top-btn{
   background-color: #f0a500;
+}
+
+.dark-mode #scroll-top-btn:hover{
+  background-color: #d18e00;
 }
