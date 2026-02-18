@@ -74,3 +74,20 @@ body {
   line-height: 1.6;
   color: #444;
 }
+
+.skill-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.skill-list li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.skill-list strong {
+  color: #000;
+}
+
