@@ -90,7 +90,7 @@ body {
   color: #000;
 }
 
-.edu-item {
+.edu-itm {
   margin-bottom: 18px;
 }
 
@@ -148,4 +148,34 @@ body {
   color: #444;
   margin-top: 6px;
   line-height: 1.5;
+}
+
+.lang-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.lang-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.lang-list strong {
+  color: #000;
+}
+
+.cv-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+@media print {
+  body {
+    background: white;
+  }
+  .cv-box {
+    box-shadow: none;
+  }
 }
