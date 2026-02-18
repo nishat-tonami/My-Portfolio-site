@@ -1,9 +1,11 @@
+/* CSS variables (color system) */
 :root{
   --accent: #10a8e6;
   --muted: #555;
   --line:#e7e8ef;
 }
 
+/* Reset default browser spacing */
 *{
   margin: 0;
   padding: 0;
@@ -11,6 +13,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Base body styling */
 body{
   font-size: 21px;
 }
@@ -24,6 +27,7 @@ body{
   background-color: lightblue;
 }
 
+/* Main content container */
 .main-box{
   width: min(1100px, 100%);
   background: white;
@@ -44,6 +48,7 @@ body{
   flex-wrap: wrap;
 }
 
+/* Individual navigation link styling */
 .navlinks a{
   text-decoration: none;
   color: #555;
@@ -55,6 +60,7 @@ body{
   color: #0f98d1;
 }
 
+/* Theme toggle button styling */
 #theme-btn{
   background: none;
   border: none;
@@ -63,6 +69,7 @@ body{
   margin-left: 10px;
 }
 
+/* Intro section layout (grid structure) */
 .intro{
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -105,6 +112,7 @@ body{
   justify-content: center;
 }
 
+/* Button to view CV */
 .cv-btn{
   display: inline-block;
   margin-top: 20px;
@@ -154,6 +162,8 @@ body{
     color: #222;
     font-size: 20px;
 }
+
+/* Skills section container */
 .skills{
   max-width: 600px;
 }
@@ -169,6 +179,7 @@ body{
   margin-bottom: 6px;
 }
 
+/* Skill progress bar background */
 .progress{
   width: 100%;
   height: 8px;
@@ -201,7 +212,7 @@ body{
   max-width: 700px;
 }
 
-
+/* Project cards grid layout */
 .cards{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -249,6 +260,7 @@ body{
   opacity: 0.7;
 }
 
+/* Contact information styling */
 .contact-info{
   margin-top: 10px;
   color: var(--muted);
@@ -270,6 +282,7 @@ body{
   color: #222;
 }
 
+/* Footer styling */
 .footer{
   text-align: center;
   margin-top: 30px;
@@ -277,6 +290,7 @@ body{
   color: var(--muted);
 }
 
+/* Dark mode styling */
 .dark-mode {
     color: white;
 }
@@ -347,6 +361,7 @@ body{
   background: #f0a500; 
 }
 
+/* Scroll-to-top button styling */
 #scroll-top-btn{
   position: fixed;
   bottom: 30px;

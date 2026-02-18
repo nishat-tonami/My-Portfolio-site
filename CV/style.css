@@ -1,3 +1,4 @@
+/* Reset default browser margin and padding */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Body styling: background color and base font size */
 body {
   background-color: lightblue;
   font-size: 18px;
@@ -37,12 +39,14 @@ body {
   margin-bottom: 5px;
 }
 
+/* Professional title styling */
 .title {
   font-size: 20px;
   color: #555;
   margin-bottom: 15px;
 }
 
+/* Contact information styling */
 .contact {
   font-size: 17px;
   color: #555;
@@ -58,6 +62,7 @@ body {
   text-decoration: underline;
 }
 
+/* Professional title styling */
 .section {
   margin-bottom: 35px;
 }
@@ -70,11 +75,13 @@ body {
   display: inline-block;
 }
 
+/* Paragraph text styling */
 .section-txt {
   line-height: 1.6;
   color: #444;
 }
 
+/* Skills list formatting */
 .skill-list {
   list-style-type: disc;
   padding-left: 20px;
@@ -94,6 +101,7 @@ body {
   margin-bottom: 18px;
 }
 
+/* Education row: degree and year alignment */
 .edu-row {
   display: flex;
   justify-content: space-between;
@@ -111,6 +119,7 @@ body {
   margin-top: 4px;
 }
 
+/* Divider line between sections/items */
 .divider {
   height: 1px;
   background-color: #e0e0e0;
@@ -121,6 +130,7 @@ body {
   margin-bottom: 18px;
 }
 
+/* Project row alignment */
 .project-row {
   display: flex;
   justify-content: space-between;
@@ -150,6 +160,7 @@ body {
   line-height: 1.5;
 }
 
+/* Language list styling */
 .lang-list {
   list-style-type: disc;
   padding-left: 20px;
@@ -165,12 +176,14 @@ body {
   color: #000;
 }
 
+/* Footer styling */
 .cv-footer {
   text-align: center;
   font-size: 14px;
   color: #777;
 }
 
+/* Print mode styling (removes background and shadow for printing) */
 @media print {
   body {
     background: white;
